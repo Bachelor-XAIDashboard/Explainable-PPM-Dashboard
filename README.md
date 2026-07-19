@@ -24,16 +24,15 @@ The dashboard allows users to understand not only the predicted next process act
 ### Predictive Process Monitoring
 
 - Next Activity Prediction
-- Random Forest classifier
-- XGBoost classifier
+- Random Forest ML model
+- XGBoost ML model
 - Prediction confidence scores
 - Top-3 prediction probabilities
 
 ### Explainable AI
 
 - SHAP feature importance
-- Local feature contribution analysis
-- Feature impact visualization
+- Feature impact visualisation
 - Technical explanation layer
 
 ### Managerial Decision Support
@@ -42,7 +41,7 @@ The dashboard allows users to understand not only the predicted next process act
 - Decision Support Summary
 - Recommended managerial actions
 - Activity reference guide
-- Confidence categorization (High / Moderate / Low)
+- Confidence categorisation (High / Moderate / Low)
 
 ---
 
@@ -55,24 +54,30 @@ The dashboard consists of several integrated components:
 - Case Selection
 - Prefix Selection
 - Technical Explainability View
-- Managerial Explainability View
+- SHAP Feature-based Explanations
 - SHAP Feature Impact Plot
+- Managerial Explainability View
 - Decision Support Summary
 - Business Explanation
 - Recommended Actions
 
 ---
 
-## Technologies Used
+## Tools Used
 
 - Python
 - Streamlit
 - Pandas
+- Pm4py
 - NumPy
 - Scikit-learn
 - XGBoost
 - SHAP
 - Matplotlib
+- dateutil
+- joblib
+- xgbosst
+- json
 
 ---
 
@@ -99,6 +104,8 @@ Bachelor_thesis_Code/
 │   └── 6_ComputeMetrics.py
 │
 └── Dashboard_XAI.py
+
+Evaluation of an Explainable AI Dashboard for Predictive Process Monitoring.xlsx
 ```
 
 ---
@@ -106,6 +113,7 @@ Bachelor_thesis_Code/
 ## Running the Dashboard
 
 Install the required Python packages.
+Run the scripts from the "code" folder in order, staring from 1_preprocessing.py to 6_ComputeMetrics.
 
 Then launch the dashboard with:
 
@@ -129,6 +137,15 @@ The developed dashboard was evaluated using six Human-Centered Explainable AI co
 - Usability
 - Cognitive Load
 - Simulatability
+
+The anonymized survey responses and the complete evaluation results are available in:
+**`Evaluation of the Explainable AI Dashboard for Predictive Process Monitoring.xlsx`**
+
+### Survey Results
+
+A summary of the evaluation results can be found here:
+
+**Survey Results:** *https://forms.office.com/Pages/AnalysisPage.aspx?AnalyzerToken=a4HPG8biNzFAz49lI7KF1l5vvuA6C3HS&id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__QSYPFRUQlVYMzNXRFg1OEtRMUozOTEzSzNRSVdUVS4u*
 
 ---
 
