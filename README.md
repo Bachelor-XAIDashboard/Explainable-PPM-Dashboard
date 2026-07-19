@@ -169,9 +169,3 @@ Potential extensions include:
 Bachelor of Science in Business Informatics
 
 Saarland University
-
----
-
-## License
-
-This project is licensed under the MIT License.
